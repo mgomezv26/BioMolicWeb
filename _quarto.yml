@@ -1,19 +1,51 @@
 project:
-  title: "BioMolicWeb"
+  type: website
+  # output-dir: docs
 
-navbar:
+
+website:
+  title: "BioMolicWeb"
+  description: "I am a scientist"
+  site-url: https://pakillo.github.io/academic-website-template-Quarto
+  repo-url: https://github.com/Pakillo/academic-website-template-Quarto
+  # favicon: logo.png
+  twitter-card: true
+  #   creator: "@handle"
+  #   site: "@handle"
+  open-graph: true
+  # google-analytics:
+  #   tracking-id: "UA-XXXXXXXX"
+  #   anonymize-ip: true
+  # cookie-consent: true
+
+
+  navbar:
     right:
       - href: index.qmd
         text: Home
-      - about.qmd
       - Projects.qmd
-      - Blog.qmd
+      - Publications.qmd
+      - aboyt.qmd
+
+      - icon: rss
+        href: index.xml
+      - icon: twitter
+        href: https://twitter.com
+
+  page-footer:
+    background: light
+    right: "Made with Quarto"
+  # back-to-top-navigation: true
+
 
 format:
   html:
     theme: yeti
     css: styles.css
+    toc: false
 
 execute:
   freeze: auto  # re-render only when source changes
+
+
 
