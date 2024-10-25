@@ -40,7 +40,7 @@ website:
 
 format:
   html:
-    theme: yeti
+    theme: quartz
     css: styles.css
     toc: false
 
