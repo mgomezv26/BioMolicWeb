@@ -1,7 +1,7 @@
 project:
   title: "BioMolicWeb"
 
-  navbar:
+navbar:
     right:
       - href: index.qmd
         text: Home
