@@ -1,5 +1,19 @@
 project:
   title: "BioMolicWeb"
 
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - Projects.qmd
+      - Blog.qmd
 
+format:
+  html:
+    theme: yeti
+    css: styles.css
+
+execute:
+  freeze: auto  # re-render only when source changes
 
