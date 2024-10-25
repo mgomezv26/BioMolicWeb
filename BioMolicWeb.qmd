@@ -1,7 +1,15 @@
 ---
 title: "BioMolicWeb"
+author: "Mónica Gómez-vadillo"
+date: "2024-10-25"
+output:
+  html_document: default
 ---
 
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+# Bienvenido a mi Página
+
+Aquí es donde comenzarás a escribir tu contenido.
