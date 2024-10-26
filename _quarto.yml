@@ -6,8 +6,8 @@ project:
 website:
   title: "BioMolicWeb"
   description: "I am a scientist"
-  site-url: https://pakillo.github.io/academic-website-template-Quarto
-  repo-url: https://github.com/Pakillo/academic-website-template-Quarto
+  site-url: https://github.com/mgomezv26
+  repo-url: https://github.com/mgomezv26/BioMolicWeb
   # favicon: logo.png
   twitter-card: true
   #   creator: "@handle"
@@ -25,7 +25,7 @@ website:
         text: Home
       - Projects.qmd
       - Publications.qmd
-      - aboyt.qmd
+      - about.qmd
 
       - icon: rss
         href: index.xml
